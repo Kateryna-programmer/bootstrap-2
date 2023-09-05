@@ -1,0 +1,16 @@
+body {
+  background-image: url(../img/patt.png);
+  background-position: 50% 0;
+}
+
+.btn-common {
+  color: $color-dark;
+  border-color: $color-dark;
+  border-radius: 0;
+
+  &:hover {
+    color: $color-light;
+    border-color: $color-dark;
+    background-color: $color-dark;
+  }
+}
