@@ -355,6 +355,11 @@ body {
 
   font-size: 1.25rem;
 }
+@media (min-width: 576px) and (max-width: 991px) {
+  .page-header__cart-btn {
+    margin-top: -8px !important;
+  }
+}
 @media (min-width: 992px) {
   .page-header__navbar .dropdown.show {
     border-bottom: 1px solid #ffffff;
@@ -427,10 +432,12 @@ body {
   }
 }
 @media (max-width: 991px) {
-  .page-header__cart-btn {
-    margin-top: -12px !important;
-  }
   .sidebar-filter {
     border-top: 1px solid #ffffff;
+  }
+}
+@media (max-width: 575px) {
+  .page-header__cart-btn {
+    margin-top: 0 !important;
   }
 }

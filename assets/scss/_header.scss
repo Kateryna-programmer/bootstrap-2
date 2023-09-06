@@ -89,8 +89,12 @@
     border-radius: 0;
     background-color: $color-light;
 
-    @media (max-width: 991px) {
-      margin-top: -12px !important;
+    @media (max-width: 575px) {
+      margin-top: 0px !important;
+    }
+
+    @media (min-width: 576px) and (max-width: 991px) {
+      margin-top: -8px !important;
     }
 
     &:hover {
